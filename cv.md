@@ -18,7 +18,7 @@ I'd like to start new career as a junior front end developer and help companies 
 
 ### Skills: 
 - Languages:  Javascript / C++ / C# 
-- Frameworks:  Vue.js /  React.js  / Bootstrap
+- Frameworks:  Vue.js /  React.js  / Bootstrap / Tailwind CSS
 - Version control:  Git / Github.
 - Tools:  VS Code  / WebStorm / Figma
 - Markup: HTML / CSS / SCSS 
