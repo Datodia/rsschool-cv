@@ -1,0 +1,101 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #02183a;
+    width: 100%;
+}
+
+header,
+.main-container,
+footer {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 38px;
+    color: #00FFF5;
+    font-family: 'Nunito';
+}
+
+header .nav-bar a,
+header .resume a,
+header .resume a h1 {
+    text-decoration: none;
+    font-size: 35px;
+    color: #00FFF5;
+    font-family: 'Nunito';
+}
+
+header .nav-bar {
+    display: flex;
+    gap: 30px;
+}
+
+.main-container .about {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container .about .title {
+    text-align: center;
+}
+
+.main-container .about h1 {
+    color: #00FFF5;
+    font-family: 'Nunito';
+    margin-bottom: 50px;
+
+}
+
+.main-container .about button {
+    height: 60px;
+    border-radius: 10px;
+    color: white;
+    background-color: #00FFF5;
+    font-size: 19px;
+    font-family: 'Nunito';
+}
+
+
+
+footer {
+    display: flex;
+}
+
+footer .contact {
+    display: flex;
+    margin-top: 400px;
+    justify-content: start;
+    gap: 400px;
+}
+
+footer .contact .links {
+    display: flex;
+    gap: 100px;
+}
+
+footer .contact .links .link {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+footer .contact .links h1,
+footer .contact h1 {
+    font-size: 26px;
+    font-family: 'Nunito';
+    color: #00FFF5;
+}
