@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #02183a;
+    width: 100%;
+}
+
+header,
+.main-container,
+footer {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+header .nav-bar {
+    display: flex;
+    gap: 30px;
+}
+
+.main-container .about h1 {
+    color: white;
+}
+
+footer .contact {
+    display: flex;
+}
